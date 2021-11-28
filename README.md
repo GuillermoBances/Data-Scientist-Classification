@@ -19,7 +19,7 @@ The best model for training and validation data was the Random Forest Classifier
 
 ROC:
 
-XGBoost: 0.6697721994052237
-KNeighbor: 0.6707253873348893
-Random Forest: 0.7088193410859982
-SVC: 0.5
+* XGBoost: 0.6697721994052237
+* KNeighbor: 0.6707253873348893
+* Random Forest: 0.7088193410859982
+* SVC: 0.5
