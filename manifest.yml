@@ -1,0 +1,5 @@
+---
+applications:
+- name: proyecto-final-master-IA
+  random-route: true
+  memory: 256M
