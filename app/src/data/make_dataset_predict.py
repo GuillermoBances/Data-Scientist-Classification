@@ -138,7 +138,7 @@ def preprocess_numerical_data(data_df, model_info, bucket_name = 'models-uem-pf'
     #scaler_to_fit = cos.get_object_in_cos(scaler, bucket_name)
     #data_df_num = pd.DataFrame(scaler_to_fit.fit_transform(data_df_num), columns=data_df_num.columns)
     return data_df_num.copy()
-
+ 
 
 def preprocess_categorical_data(data_df, model_info, bucket_name = 'models-uem-pf'):
 
