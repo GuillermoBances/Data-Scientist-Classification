@@ -1,0 +1,35 @@
+{
+  "services": {
+    "cloudantNoSQLDB": [
+      {
+        "name": "Cloudant-proyecto-final",
+        "label": "cloudantNoSQLDB",
+        "plan": "Shared",
+        "credentials": {
+          "apikey": "aAuHvNyJaYLqi6QP5cuWqTljm7s7fADscEvp13ERy7TC",
+          "host": "c2fdefe9-3e3c-4bae-ac60-65802449ba98-bluemix.cloudantnosqldb.appdomain.cloud",
+          "iam_apikey_description": "Auto-generated for key 492d2c42-0cf1-4ad4-bd7c-230d15cccffe",
+          "iam_apikey_name": "Credenciales de servicio-PFclo",
+          "iam_role_crn": "crn:v1:bluemix:public:iam::::serviceRole:Manager",
+          "iam_serviceid_crn": "crn:v1:bluemix:public:iam-identity::a/5e7b00d5c8ed461ca48e7d3e57d44cfe::serviceid:ServiceId-26d4dc21-b3da-4e98-887c-a6b487c2f931",
+          "url": "https://c2fdefe9-3e3c-4bae-ac60-65802449ba98-bluemix.cloudantnosqldb.appdomain.cloud",
+          "username": "c2fdefe9-3e3c-4bae-ac60-65802449ba98-bluemix"
+        }
+      }
+    ],
+    "cloud-object-storage": [
+        {
+            "credentials": {
+              "apikey": "1HOlxZK_P-VreemXNsnczVy73skh4VVjfHpfBLtFMosM",
+              "endpoints": "https://control.cloud-object-storage.cloud.ibm.com/v2/endpoints",
+              "iam_apikey_description": "Auto-generated for key 8bece92e-feb5-45a7-90d2-1bc1ce5d7bb9",
+              "iam_apikey_name": "Credenciales de servicio-pfCOS",
+              "iam_role_crn": "crn:v1:bluemix:public:iam::::serviceRole:Writer",
+              "iam_serviceid_crn": "crn:v1:bluemix:public:iam-identity::a/5e7b00d5c8ed461ca48e7d3e57d44cfe::serviceid:ServiceId-e63fe3e3-424c-443e-a5b2-bda6f77a9f79",
+              "resource_instance_id": "crn:v1:bluemix:public:cloud-object-storage:global:a/5e7b00d5c8ed461ca48e7d3e57d44cfe:8d7b0c8c-81ae-42c6-bbfd-8bc5d0999ee8::"
+            }
+        }
+    ]
+  }
+}
+
